@@ -8,7 +8,7 @@
 **Cadence is the Open Source project management engine that powers Axiom’s proprietary solutions.** Built on **Django**, it provides a **scalable, secure, and resilient** framework for managing projects, tasks, and team collaboration.
 
 
-![Cadence is the Open Source project management engine that powers Axiom’s proprietary solutions.](https://github.com/axiomatic7group/cadence/raw/main/assets/cadence_img_hero.png)
+![Cadence is the Open Source project management engine that powers Axiom’s proprietary solutions.](https://github.com/axiomatic7group/cadence/blob/main/assets/cadence_img_hero.png)
 
 ---
 
