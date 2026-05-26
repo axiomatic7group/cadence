@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+
+
+
+
+{% block content %}
+<div class="user_dashboard">
+    <div class="user_dashboard_header">
+        <h2 class="user_dashboard_link"> Welcome <a href="#">{{user}}</a> ! </h2>
+
+        <div class="project_add_buttons">
+            <button class="project_a_buttons btn"> <a href="/pm/create_project/" class="project_a_buttons"> + Project </a> </button>
+            <button class="project_a_buttons btn"> <a href="/pm/create_deliverable/" class="project_a_buttons">  + Deliverable </a> </button>
+            <button class="project_a_buttons btn"> <a href="/pm/create_tasks/" class="project_a_buttons"> + Task </a> </button>
+        </div>
+
+    </div>
+
+    <div class="user_message_body">
+        <div class="sender_list">
+            {% for send in list_of_sender %}
+            
+                {% if send.value == "" %}
+                <a href="/pm/user_message_view/system" class="chat_button">
+                    system
+                {% else %}
+                <a href="/pm/user_message_view/{{send.id}}" class="chat_button">
+                    {{send.value|safe}}
+                {% endif %}
+            </a>
+            {%endfor%}
+        </div>
+
+        <div class="user_messages">
+            <div class="messages_to_show">
+                {%for messg in messages_to_show%}
+                    {% if messg.message_sender == message_sender%}
+                        <div class="message sender">
+                    {% else %}
+                        <div class="message user">
+                    {% endif %}
+                            <p>{{messg.message|safe}}</p>
+                            <date>{{messg.date_created|safe}}</date>
+                        
+                        </div>
+                {% endfor %}
+            </div>
+        
+
+            <div class="form_div" >
+                <form name='add_user_messages_form' id='add_user_messages_form' action='/pm/user_message_view/{{message_sender}}' method='post'>
+                    {% csrf_token %}
+
+                    {{add_user_messages_form.as_p|safe}}
+
+                    <input type="submit" value="post">
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

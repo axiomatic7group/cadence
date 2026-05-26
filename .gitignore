@@ -1,0 +1,8 @@
+.venv
+.env
+*.sqlite3
+*.db
+requirements.txt
+migrations
+__pycache__
+scheduler_db_testing.py
