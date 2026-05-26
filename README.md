@@ -7,9 +7,12 @@
 
 **Cadence is the Open Source project management engine that powers Axiom’s proprietary solutions.** Built on **Django**, it provides a **scalable, secure, and resilient** framework for managing projects, tasks, and team collaboration.
 
+
+![Cadence is the Open Source project management engine that powers Axiom’s proprietary solutions.](https://github.com/axiomatic7group/cadence/raw/main/assets/cadence_img_hero.png)
+
 ---
 
-## 🌟 **Key Features**
+## **Key Features**
 
 ### **1. Role-Based Access Control (RBAC)**
 - **Staff**, **Stakeholders**, and **General Users** with granular permissions.
@@ -75,7 +78,7 @@ Visit `http://127.0.0.1:8000/admin` to manage users, projects, and tasks.
 
 ---
 
-## 📌 **Why Choose Cadence?**
+## **Why Choose Cadence?**
 ✅ **Open Source** – Free to use and modify.
 ✅ **Secure** – User-level attribution ensures no "God Mode" for AI.
 ✅ **Resilient** – Non-linear process recovery (fix tasks mid-stream).
@@ -83,7 +86,7 @@ Visit `http://127.0.0.1:8000/admin` to manage users, projects, and tasks.
 
 ---
 
-## 🔗 **Explore Axiom’s Proprietary Solutions**
+## **Explore Axiom’s Proprietary Solutions**
 Cadence is part of **Axiom**, our **proprietary suite of AI-driven automation tools** designed to bring **common sense back to automation**.
 
 ### **Axiom’s Key Layers**
@@ -92,28 +95,32 @@ Cadence is part of **Axiom**, our **proprietary suite of AI-driven automation to
 🔹 **Daemon (Reasoning Layer)** – A secure AI assistant that doubles as a "second brain."
 
 ### **Why Axiom?**
-🚀 **Deterministic Task Onboarding** – Turn documented processes into autonomous workflows.
-🔒 **Hierarchical Permissioning** – AI agents operate with the same security clearance as their human counterparts.
-🔄 **Non-Linear Process Resilience** – Fix tasks mid-stream without restarting the entire workflow.
+**Deterministic Task Onboarding** – Turn documented processes into autonomous workflows.
 
-👉 **[Learn More About Axiom](https://axiomaticlab.com)**
+**Hierarchical Permissioning** – AI agents operate with the same security clearance as their human counterparts.
 
----
+**Non-Linear Process Resilience** – Fix tasks mid-stream without restarting the entire workflow.
 
-## 🤝 **Join the Community**
-📌 **Star this repo** if you find Cadence useful!
-📌 **Report bugs** or suggest features via [GitHub Issues](https://github.com/axiomatic7group/cadence/issues).
-📌 **Contribute** – Fork, improve, and submit pull requests!
+**[Learn More About Axiom](https://axiomaticlab.com)**
 
 ---
 
-## 📜 **License**
+## **Join the Community**
+**Star this repo** if you find Cadence useful!
+
+**Report bugs** or suggest features via [GitHub Issues](https://github.com/axiomatic7group/cadence/issues).
+
+**Contribute** – Fork, improve, and submit pull requests!
+
+---
+
+## **License**
 This project is licensed under the **MIT License** – see [LICENSE](LICENSE) for details.
 
 ---
 
-## 📧 **Contact Us**
-🌐 [Axiomatic Lab Website](https://axiomaticlab.com)
-📺 [YouTube Channel](https://www.youtube.com/channel/UCltGi4Su305oln_ldu-b94Q)
-💼 [LinkedIn](https://www.linkedin.com/company/axiomatic-lab/)
-📩 **Inquire About a Pilot**: [Contact Us](https://axiomaticlab.com)
+## **Contact Us**
+[Axiomatic Lab Website](https://axiomaticlab.com)
+[YouTube Channel](https://www.youtube.com/channel/UCltGi4Su305oln_ldu-b94Q)
+[LinkedIn](https://www.linkedin.com/company/axiomatic-lab/)
+**Inquire About a Pilot**: [Contact Us](https://axiomaticlab.com)
